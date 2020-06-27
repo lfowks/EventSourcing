@@ -11,3 +11,17 @@ C:\Users\Lawrence\source\repos\Infrastructure\obj\Debug\netcoreapp3.1\Infrastruc
 C:\Users\Lawrence\source\repos\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\Users\Lawrence\source\repos\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\Lawrence\source\repos\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

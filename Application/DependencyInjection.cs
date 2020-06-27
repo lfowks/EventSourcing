@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.Events;
+using AutoMapper;
 using EventStore.ClientAPI;
 using FluentValidation;
 using MediatR;
@@ -36,7 +37,7 @@ namespace Application
 
             services.AddSingleton(eventStoreConnection);
 
-
+            services.AddTransient<IEventStoreService,EventStoreService>();
 
             return services;
         }
