@@ -15,3 +15,11 @@ D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Dom
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
