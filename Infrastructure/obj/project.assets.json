@@ -6367,19 +6367,21 @@
   },
   "packageFolders": {
     "C:\\Users\\Lawrence\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6390,15 +6392,13 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/TvcProDriver/_packaging/TVCMasterFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj"
+            "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj": {
+              "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj"
             }
           }
         }
@@ -6436,7 +6436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

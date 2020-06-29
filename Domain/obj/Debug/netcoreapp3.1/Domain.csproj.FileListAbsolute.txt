@@ -6,15 +6,6 @@ C:\Users\Lawrence\source\repos\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInf
 C:\Users\Lawrence\source\repos\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\Lawrence\source\repos\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\Lawrence\source\repos\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
@@ -23,3 +14,11 @@ C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Doma
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\Lawrence\source\repos\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
