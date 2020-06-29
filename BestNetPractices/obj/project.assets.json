@@ -11010,21 +11010,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Lawrence\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\BestNetPractices\\BestNetPractices.csproj",
+      "projectUniqueName": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\BestNetPractices\\BestNetPractices.csproj",
       "projectName": "BestNetPractices",
-      "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\BestNetPractices\\BestNetPractices.csproj",
+      "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\BestNetPractices\\BestNetPractices.csproj",
       "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\BestNetPractices\\obj\\",
+      "outputPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\BestNetPractices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11035,16 +11033,18 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/TvcProDriver/_packaging/TVCMasterFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj": {
-              "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj"
+            "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj"
             },
-            "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -11099,7 +11099,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11108,7 +11108,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.VisualStudio.Web.CodeGeneration.Templating 3.1.0-preview1-19509-03 depende de Microsoft.CodeAnalysis.CSharp (>= 3.4.0-beta2-19477-01), pero no se encontró Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-19477-01. Se resolvió una mejor coincidencia aproximada de Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-final.",
+      "message": "Microsoft.VisualStudio.Web.CodeGeneration.Templating 3.1.0-preview1-19509-03 depends on Microsoft.CodeAnalysis.CSharp (>= 3.4.0-beta2-19477-01) but Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-19477-01 was not found. An approximate best match of Microsoft.CodeAnalysis.CSharp 3.4.0-beta2-final was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.CSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -11118,7 +11118,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.VisualStudio.Web.CodeGeneration.Utils 3.1.0-preview1-19509-03 depende de Microsoft.CodeAnalysis.CSharp.Workspaces (>= 3.4.0-beta2-19477-01), pero no se encontró Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-19477-01. Se resolvió una mejor coincidencia aproximada de Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-final.",
+      "message": "Microsoft.VisualStudio.Web.CodeGeneration.Utils 3.1.0-preview1-19509-03 depends on Microsoft.CodeAnalysis.CSharp.Workspaces (>= 3.4.0-beta2-19477-01) but Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-19477-01 was not found. An approximate best match of Microsoft.CodeAnalysis.CSharp.Workspaces 3.4.0-beta2-final was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

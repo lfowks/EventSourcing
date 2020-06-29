@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj": {
+    "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,13 +25,15 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TvcProDriver/_packaging/TVCMasterFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\Domain.csproj"
+              "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\Domain.csproj"
               }
             }
           }
@@ -90,22 +91,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\Domain.csproj": {
+    "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,7 +116,9 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TvcProDriver/_packaging/TVCMasterFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -146,22 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Lawrence\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Lawrence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,13 +173,15 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TvcProDriver/_packaging/TVCMasterFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj": {
-                "projectPath": "D:\\Desarrollo\\EventSourcingDemo\\EventSourcing\\Application\\Application.csproj"
+              "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Lawrence\\source\\repos\\EventSourcing\\Application\\Application.csproj"
               }
             }
           }
@@ -216,7 +219,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     }

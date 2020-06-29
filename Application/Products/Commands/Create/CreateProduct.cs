@@ -24,6 +24,8 @@ namespace Application.Products.Commands.Create
         public string Name { get; set; }
 
         public string Description{ get; set; }
+
+        public decimal Price { get; set; }
     }
 
     public class CreateTodoItemCommandHandler : IRequestHandler<CreateProduct, int>
@@ -42,6 +44,7 @@ namespace Application.Products.Commands.Create
             {
                 Name = request.Name,
                 Description = request.Description,
+                Price = request.Price,
             };
 
             entity.CreatedShortDate = DateTime.Now.Year+"/"+ DateTime.Now.Month+"/"+DateTime.Now.Day;
