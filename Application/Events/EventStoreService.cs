@@ -66,7 +66,7 @@ namespace Application.Events
             countItemsProjection += "        var date = new Date('" + DateTime.Now.Year + "/" + DateTime.Now.Month + "/" + DateTime.Now.Day + "');";
             countItemsProjection += "        var dateEvent = new Date(Date.parse(e.body.CreatedShortDate));";
             countItemsProjection += "        if(dateEvent <= date){";
-            countItemsProjection += "            s.event.push(e.body)";
+            countItemsProjection += "            s.event.push(e.body.CartItems)";
             countItemsProjection += "    }";
             countItemsProjection += "   }";
             countItemsProjection += "  }).outputState()";
@@ -87,37 +87,36 @@ namespace Application.Events
 
         }
 
-        public List<Object> ReadEvents(string projectionName)
+        public Object ReadEvents(string projectionName)
         {
             var readEvents = _eventStore.ReadStreamEventsForwardAsync(projectionName, 0, 10, true).Result;
-
-            List<Object> list = new List<Object>();
+            Object objectDesarialized = new Object();
             foreach (var evt in readEvents.Events)
             {
                 string data = Encoding.UTF8.GetString(evt.Event.Data);
-                var obj = JObject.Parse(data).SelectToken("event").First.ToString();
-                Object objectDesarialized = JsonConvert.DeserializeObject<Object>(obj);
-                list.Add(objectDesarialized);
+                objectDesarialized = JsonConvert.DeserializeObject<Object>(data);
+             
             }
 
-            return list;
+            return objectDesarialized;
 
         }
 
-        public List<CartItem> ReadCartEvents(string projectionName)
+        public ICollection<CartItem> ReadCartEvents(string projectionName)
         {
             var readEvents = _eventStore.ReadStreamEventsForwardAsync(projectionName, 0, 10, true).Result;
 
-            List<CartItem> list = new List<CartItem>();
+            Cart cart = new Cart();
+
             foreach (var evt in readEvents.Events)
             {
                 string data = Encoding.UTF8.GetString(evt.Event.Data);
                 var obj = JObject.Parse(data).SelectToken("event").First.ToString();
-                CartItem product = JsonConvert.DeserializeObject<CartItem>(obj);
-                list.Add(product);
+                cart.CartItems = JsonConvert.DeserializeObject<List<CartItem>>(obj);
+                //list.Add(product);
             }
 
-            return list;
+            return cart.CartItems;
 
         }
     }

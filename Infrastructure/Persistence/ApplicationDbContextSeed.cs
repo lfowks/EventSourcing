@@ -16,9 +16,27 @@ namespace Infrastructure.Persistence
             {
                 context.Products.Add(new Product
                 {
-                    Name = "Test",
-                    Description = "Test"
+                    Name = "USB",
+                    Description = "Usb 16GB Storage"
                     
+                });
+                context.Products.Add(new Product
+                {
+                    Name = "KeyBoard",
+                    Description = "Gamming KeyBoard"
+
+                });
+                context.Products.Add(new Product
+                {
+                    Name = "Monitor",
+                    Description = "Curve Monitor"
+
+                });
+                context.Products.Add(new Product
+                {
+                    Name = "Mouse",
+                    Description = "Optical Mouse"
+
                 });
 
                 await context.SaveChangesAsync();

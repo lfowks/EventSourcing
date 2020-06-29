@@ -9,11 +9,13 @@ using Application.Products.Commands.Update;
 using Application.Products.Commands.Delete;
 using Application.Products.Queries.GetProducts;
 using Application.Products.Queries.GetProduct;
+using Microsoft.AspNetCore.Cors;
 
 namespace BestNetPractices.Controllers
 {
     //[Authorize]
     [Route("[controller]")]
+    [EnableCors("AllowOrigin")]
     public class ProductsController : ApiController
     {
 

@@ -9,9 +9,9 @@ namespace Application.Events
     {
         public void PublishEvent(string metaData, string data, string eventType,string stream);
 
-        public List<Object> ReadEvents(string projectionName);
+        public Object ReadEvents(string projectionName);
 
-        public List<CartItem> ReadCartEvents(string projectionName);
+        public ICollection<CartItem> ReadCartEvents(string projectionName);
 
         public void CreateProjection(string name, string eventType);
 
