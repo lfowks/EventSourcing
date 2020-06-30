@@ -22,3 +22,4 @@ D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Dom
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Desarrollo\EventSourcingDemo\EventSourcing\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
